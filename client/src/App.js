@@ -4,6 +4,7 @@ import {Button} from 'semantic-ui-react';
 // import 'semantic-ui-css';
 import './App.css';
 import Volunteering from "./pages/Volunteering";
+import ContactUs from "./pages/ContactUs";
 import {
   BrowserRouter as Router,
   Switch,
@@ -34,8 +35,11 @@ function App() {
       <h1>hello {name}</h1>
       <button class="ui button">hello</button>
       <Switch>
-          <Route exact path="/">
+          <Route exact path="/volunteering">
             <Volunteering />
+          </Route>
+          <Route exact path="/contact">
+            <ContactUs />
           </Route>
         </Switch>
     </Router>
