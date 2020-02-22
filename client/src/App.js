@@ -1,7 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import {Button} from 'semantic-ui-react';
+// import 'semantic-ui-css';
 import './App.css';
+import Volunteering from "./pages/Volunteering";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   const name = "Mariana"
@@ -22,10 +30,15 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <>
-    <h1>hello {name}</h1>
-    <button class="ui button">hello</button>
-    </>
+    <Router>
+      <h1>hello {name}</h1>
+      <button class="ui button">hello</button>
+      <Switch>
+          <Route exact path="/">
+            <Volunteering />
+          </Route>
+        </Switch>
+    </Router>
   );
 }
 
