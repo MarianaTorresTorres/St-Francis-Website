@@ -7,6 +7,7 @@ import './App.css';
 import Navbar from "./pages/Navbar";
 import Volunteering from "./pages/Volunteering";
 import ContactUs from "./pages/ContactUs";
+import Staff from "./pages/Staff";
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,7 +16,7 @@ import {
 } from "react-router-dom";
 
 function App() {
-  
+
   return (
     // <div className="App">
     //   <header className="App-header">
@@ -39,8 +40,9 @@ function App() {
           <Route exact path="/volunteering">
             <Volunteering />
           </Route>
-          
-
+          <Route exact path="/staff">
+            <Staff />
+          </Route>
           <Route exact path="/contact">
             <ContactUs />
           </Route>
