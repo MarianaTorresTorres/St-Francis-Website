@@ -39,6 +39,9 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
+      <Route exact path="/">
+        <Home />
+      </Route>
         <Route exact path="/volunteering">
           <Volunteering />
         </Route>

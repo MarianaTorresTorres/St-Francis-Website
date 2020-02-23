@@ -1,7 +1,14 @@
 import React from "react";
-
+import './Home.css';
 const Home = () => (
-  <h1>Welcome!</h1>
-)
+  <>
+    <div id="image">
+    
+      <div id="text">
+        <h1>Transitions to end homelessness</h1>
+      </div>
+    </div>
+  </>
+);
 
 export default Home;
