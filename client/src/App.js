@@ -43,6 +43,7 @@ function App() {
           </Route>
           <Route exact path="/about">
             <AboutUs />
+          </Route>
           <Route exact path="/staff">
             <Staff />
           </Route>
