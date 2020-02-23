@@ -8,7 +8,7 @@ const Volunteering = () => (
       <Grid.Row fluid>
         <h1 style={{color: '#000000'}}>Volunteering Application</h1>
       </Grid.Row>
-      
+
       <Grid.Row>
         <Form style={{width: '100%', padding: '2vw'}}>
           <Form.Group widths="equal">
@@ -45,5 +45,5 @@ const Volunteering = () => (
     </Grid>
   </div>
 );
-
+//console.log(everything)
 export default Volunteering;
