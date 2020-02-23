@@ -34,7 +34,7 @@ function App() {
       <h1>hello {name}</h1>
       <button class="ui button">hello</button>
       <Switch>
-          <Route exact path="/">
+          <Route exact path="/volunteering">
             <Volunteering />
           </Route>
         </Switch>

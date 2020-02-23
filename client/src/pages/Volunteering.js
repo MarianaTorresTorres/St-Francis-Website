@@ -7,7 +7,7 @@ const Volunteering = () => (
       <h1>Volunteering Application</h1>
     </Container>
     <Container>
-      <h1>General Information</h1>
+      <h2>General Information</h2>
       <Form>
         <Form.Group widths="equal">
           <Form.Input fluid label="First name" placeholder="First name" />
@@ -38,9 +38,25 @@ const Volunteering = () => (
           />
         </Form.Group>
         <Checkbox label="I am over 18" />
+        <Form.Input
+          fluid
+          label="Best form of contact"
+          placeholder="..."
+        />
+        <Form.Select
+            fluid
+            label='Education'
+            //options
+            placeholder='Select one'
+          />
+          <Form.Input
+            fluid
+            label="How did you learn about our Volunteering Program?"
+            placeholder="Tell us here"
+          />
       </Form>
     </Container>
   </>
 );
-
+//console.log(everything)
 export default Volunteering;
