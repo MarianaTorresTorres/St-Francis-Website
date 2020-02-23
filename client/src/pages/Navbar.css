@@ -1,0 +1,41 @@
+#imageLogo{
+    float: left;
+    max-height: 4em;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .menu-bar{
+    
+    overflow: hidden;
+    background-color: #D8BFD8;
+    vertical-align: center;
+    max-height: 6em;
+  }  
+  .menu-bar a{
+    
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+    float: right;
+    color: white;
+    font-family: 'Chivo';
+    font-size: 20px;
+    font-weight: 300px;
+  }
+  .menu-bar a:hover{
+    background-color: white;
+    color: black;
+  
+  }
+  h1{
+    display: flex;
+    float: left;
+    font-weight: 500;
+    max-height: 3em;
+    font-family: 'Abril Fatface';
+    color: white;
+    padding-bottom: 20px;
+    margin-left: 13px;
+  }
+  
