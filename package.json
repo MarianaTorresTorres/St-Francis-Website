@@ -1,0 +1,25 @@
+{
+  "name": "St-Francis-Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "nodemailer": "^6.4.3",
+    "semantic-ui-css": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarianaTorresTorres/St-Francis-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarianaTorresTorres/St-Francis-Website/issues"
+  },
+  "homepage": "https://github.com/MarianaTorresTorres/St-Francis-Website#readme"
+}

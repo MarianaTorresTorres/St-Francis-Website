@@ -7,6 +7,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import Navbar from "./pages/Navbar";
 import Volunteering from "./pages/Volunteering";
+import AboutUs from "./pages/AboutUs"
 import ContactUs from "./pages/ContactUs";
 import Staff from "./pages/Staff";
 import {
@@ -38,6 +39,7 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
+<<<<<<< HEAD
         <Route exact path="/volunteering">
           <Volunteering />
         </Route>
@@ -54,6 +56,21 @@ function App() {
           <Redirect to="/" />
         </Route>
       </Switch>
+=======
+          <Route exact path="/volunteering">
+            <Volunteering />
+          </Route>
+          <Route exact path="/about">
+            <AboutUs />
+          </Route>
+          <Route exact path="/staff">
+            <Staff />
+          </Route>
+          <Route exact path="/contact">
+            <ContactUs />
+          </Route>
+        </Switch>
+>>>>>>> master
     </Router>
   );
 }
