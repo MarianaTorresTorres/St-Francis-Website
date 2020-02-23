@@ -3,8 +3,12 @@ import logo from './logo.svg';
 import {Button} from 'semantic-ui-react';
 // import 'semantic-ui-css';
 import './App.css';
+
+import Navbar from "./pages/Navbar";
 import Volunteering from "./pages/Volunteering";
 import AboutUs from "./pages/AboutUs"
+import ContactUs from "./pages/ContactUs";
+import Staff from "./pages/Staff";
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,7 +17,7 @@ import {
 } from "react-router-dom";
 
 function App() {
-  const name = "Mariana"
+
   return (
     // <div className="App">
     //   <header className="App-header">
@@ -32,14 +36,18 @@ function App() {
     //   </header>
     // </div>
     <Router>
-      <h1>hello {name}</h1>
-      <button class="ui button">hello</button>
+      <Navbar />
       <Switch>
           <Route exact path="/volunteering">
             <Volunteering />
           </Route>
           <Route exact path="/about">
             <AboutUs />
+          <Route exact path="/staff">
+            <Staff />
+          </Route>
+          <Route exact path="/contact">
+            <ContactUs />
           </Route>
         </Switch>
     </Router>
