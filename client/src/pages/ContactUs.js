@@ -1,15 +1,18 @@
 import React from 'react';
-
+import './Volunteering.css';
 
 function ContactUs() {
   return (
-  <>
-  <h1>Contact Information</h1>
-
-  <h2>Volunteer & Communications Manager:</h2>
-  <ul>
+  <div id="contact">
+  <h1 style={{color: '#000000'}}>Contact Information</h1>
+    <div>
+    <h2>Volunteer and Communications Manager:</h2>
+    <ul>
     <li>Katelyn Drummet</li>
-  </ul>
+    </ul>
+
+    </div>
+  
 
   <h2>Office Hours:</h2>
   <ul>
@@ -23,7 +26,7 @@ function ContactUs() {
     <li>Email – sfhcoor@stfrancis.cfcoxmail.com</li>
     <li>Address – 413 South Main Street, Gainesville, FL 32601</li>
   </ul>
-  </>
+  </div>
 );
 }
 

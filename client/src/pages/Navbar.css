@@ -28,14 +28,21 @@
     color: black;
   
   }
-  h1{
+  p{
     display: flex;
     float: left;
+    font-size: 2em;
     font-weight: 500;
     max-height: 3em;
     font-family: 'Abril Fatface';
     color: white;
     padding-bottom: 20px;
     margin-left: 13px;
+    margin-top: 15px;
+  }
+  h1{
+    font-family: 'Abril Fatface';
+    font-size: 3em;
+    text-align: center;
   }
   
