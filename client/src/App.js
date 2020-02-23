@@ -6,6 +6,7 @@ import './App.css';
 
 import Navbar from "./pages/Navbar";
 import Volunteering from "./pages/Volunteering";
+import AboutUs from "./pages/AboutUs"
 import ContactUs from "./pages/ContactUs";
 import Staff from "./pages/Staff";
 import {
@@ -40,6 +41,8 @@ function App() {
           <Route exact path="/volunteering">
             <Volunteering />
           </Route>
+          <Route exact path="/about">
+            <AboutUs />
           <Route exact path="/staff">
             <Staff />
           </Route>
