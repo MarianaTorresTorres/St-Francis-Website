@@ -28,7 +28,7 @@ function AboutUs(){
       <ul>
         <li>  Breakfast is served to shelter residents from 6.00a - 7.00a. </li>
         <li>  Lunch is served from 9.00a-12.00p every day. Lunch is provided to anyone who needs it that has police clearance, not just shelter residents.</li>
-        <li> Dinner is usually provided by service groups or community organizations (for shelter resident only) starting at 6.00p every night.</li>
+        <li> Dinner is usually provided by service groups or community organizations (for shelter resident only) starting at 6.00p every night. </li>
       </ul>
       </ul>
     </>
